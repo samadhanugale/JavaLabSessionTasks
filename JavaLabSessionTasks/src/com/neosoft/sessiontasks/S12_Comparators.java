@@ -10,11 +10,11 @@ public static void main(String[] args) {
 		
 		
 		ArrayList<Movie> movie=new ArrayList<Movie>();
-		movie.add(new Movie (3,"Cool",1999));
-		movie.add(new Movie(4,"Font",1998));
-		movie.add(new Movie(5,"Cotafactory",2021));
-		movie.add(new Movie(4,"Rohini",2010));
-		movie.add(new Movie(4,"Rohit",2012));
+		movie.add(new Movie (3,"Divide",1999));
+		movie.add(new Movie(4,"Console",1998));
+		movie.add(new Movie(5,"Abstract",2021));
+		movie.add(new Movie(4,"Rotate",2010));
+		movie.add(new Movie(4,"Print",2012));
 		
 		for(Movie mv:movie) {
 			System.out.println(mv);
